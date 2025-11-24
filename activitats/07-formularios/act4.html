@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+
+    <fieldset>
+        <legend>Buscar Cámaras de Fotos</legend>
+
+        <!-- Marca -->
+        <label for="marca">
+            Marca:
+            <input id="marca" type="text" name="marca">
+        </label>
+        <br><br>
+
+        <!-- Tipo de cámara -->
+        <label for="tipo">
+            Tipo:
+        </label>
+        <select id="tipo" name="tipo">
+            <option value="" disabled selected>Selecciona un tipo</option>
+            <option value="compacta">Compacta</option>
+            <option value="reflex">Réflex</option>
+            <option value="sinEspejo">Sin Espejo</option>
+            <option value="bridge">Bridge</option>
+        </select>
+        <br><br>
+
+        <!-- Resolución -->
+        <label for="resolucion">
+            Resolución mínima (MP):
+            <input id="resolucion" type="number" name="resolucion" min="1" max="100">
+        </label>
+        <br><br>
+
+        <!-- Precio máximo -->
+        <label for="precio">
+            Precio máximo (€):
+            <input id="precio" type="number" name="precio" min="0">
+        </label>
+        <br><br>
+
+        <!-- Wi-Fi -->
+        <label for="wifi">
+            ¿Con Wi-Fi?
+        </label>
+        <select id="wifi" name="wifi">
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+
+        <!-- Botón buscar -->
+        <button type="submit">Buscar</button>
+
+    </fieldset>
+
+</form>
+
+</body>
+</html>
