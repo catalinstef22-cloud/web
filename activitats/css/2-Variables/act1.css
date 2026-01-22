@@ -1,0 +1,12 @@
+:root {
+    --separacion: 20px;
+}
+
+
+.texto {
+
+    padding: var(--separacion);
+    text-transform: uppercase;
+    color: #D95B43;
+    border: 30px solid red;
+}
