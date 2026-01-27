@@ -1,0 +1,29 @@
+.biografia {
+    font-family: sans-serif;
+    line-height: 1.8;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.biografia__marca {
+    color: #FFCF00;
+    font-weight: bold;
+}
+
+.biografia__nombre-secundario {
+    color: #000000;
+    font-weight: bold;
+}
+
+.biografia__fecha {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.biografia__tecnologia {
+    color: #C8A2C8;
+    font-weight: bold;
+}
+}
