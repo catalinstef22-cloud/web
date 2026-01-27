@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.titulo {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.autor {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.prologo-tit {
+    font-size: 2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 3rem;
+}
+
+.texto-principal {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.texto-secundario {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: justify;
+    color: #444;
+}
+
+.texto-principal:hover {
+    color: blue;
+}
