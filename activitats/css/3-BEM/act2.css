@@ -1,0 +1,28 @@
+
+.comentario {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.comentario__autor {
+  font-weight: bold;
+  margin: 0;
+}
+
+.comentario__texto {
+  color: #666;
+}
+
+
+.comentario--destacado {
+  background-color: #f0f7ff;
+  border-color: #007bff;
+}
+
+.comentario__boton--primario {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
