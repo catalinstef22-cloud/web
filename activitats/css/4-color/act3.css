@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    background: #fff;
+}
+
+.header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ff4b4b;
+}
+
+.logo span {
+    color: #000;
+}
+
+.intro {
+    padding: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.nombre {
+    background: #ff4b4b;
+    color: #fff;
+    padding: 2px 6px;
+}
+
+.intro a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+.contenido {
+    padding: 40px;
+}
+
+.contenido h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.fecha {
+    font-size: 14px;
+    color: #999;
+}
+
+.fecha span {
+    color: #ff4b4b;
+}
+
+.post a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 20px 40px;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #eee;
+}

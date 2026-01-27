@@ -1,0 +1,9 @@
+.secreto {
+    font-family: monospace;
+    line-height: 2;
+}
+
+.secreto__censura {
+    background-color: black;
+    color: black;
+}
