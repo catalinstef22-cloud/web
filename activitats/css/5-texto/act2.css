@@ -9,7 +9,7 @@ body {
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    /* DIFERENCIA 1: Letras separadas */
+
     letter-spacing: 1.5rem;
 }
 
@@ -19,14 +19,14 @@ body {
     text-align: center;
     font-style: italic;
     text-decoration: underline;
-    /* DIFERENCIA 2: Nombre y apellido separados */
+
     word-spacing: 2rem;
 }
 
 .prologo-tit {
     font-size: 2rem;
     font-weight: bold;
-    /* DIFERENCIA 3: Cambio de small-caps a Mayúsculas puras */
+    
     text-transform: uppercase;
     margin-top: 3rem;
 }
@@ -34,7 +34,7 @@ body {
 .texto-principal {
     font-size: 1.1rem;
     font-weight: 400;
-    /* DIFERENCIA 4: Justificado */
+   
     text-align: justify;
 }
 
@@ -42,7 +42,7 @@ body {
     font-size: 1.1rem;
     font-weight: lighter;
     font-style: oblique;
-    /* DIFERENCIA 4: Justificado */
+   
     text-align: justify;
     color: #444;
 }
