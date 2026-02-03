@@ -1,20 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Times New Roman", serif;
+    background-color: white;
 }
 
 .contenedor {
-    width: 70%;
-    margin: 50px auto;
-    background-color: white;
-    padding: 20px;
+    width: 80%;
+    margin: 40px auto;
 }
 
-h1 {
-    text-align: center;
+.mayusculas {
+    text-transform: uppercase;
 }
 
-p {
-    text-align: justify;
-    line-height: 1.6;
+.resaltado {
+    background-color: yellow;
+    padding: 2px 4px;
 }
