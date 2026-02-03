@@ -3,38 +3,39 @@ body {
     line-height: 1.6;
     padding: 2rem;
 }
-
-.titulo {
-    font-size: 4rem;
-    font-weight: 900;
-    text-align: center;
-    text-transform: uppercase;
-   /
-    letter-spacing: 1.5rem;
+h1{
+    color:red
 }
+h1 {
+    font-weight: 900;   
+    margin: 0 auto;
+}
+
+h1:hover{
+    font-style:italic;
+    color:blue
+}
+
+/* Tarea: Cambio al pasar el ratón */
+
 
 .autor {
     font-size: 1.5rem;
     font-weight: 300;
-    text-align: center;
     font-style: italic;
     text-decoration: underline;
-
-    word-spacing: 2rem;
 }
 
+/* Tarea: Rojo y Negrita */
 .prologo-tit {
     font-size: 2rem;
     font-weight: bold;
-
-    text-transform: uppercase;
+    color: red;
     margin-top: 3rem;
 }
 
 .texto-principal {
     font-size: 1.1rem;
-    font-weight: 400;
-  
     text-align: justify;
 }
 
@@ -42,11 +43,6 @@ body {
     font-size: 1.1rem;
     font-weight: lighter;
     font-style: oblique;
-  
     text-align: justify;
     color: #444;
-}
-
-.texto-principal:hover {
-    color: blue;
 }
