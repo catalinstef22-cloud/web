@@ -1,0 +1,17 @@
+   @font-face{
+            font-family:pedro;
+            src:url(Blue\ Winter.otf)
+        }
+
+
+        h1 {
+            font-family:pedro;
+        }
+
+        @font-face{
+            font-family:carlo;
+            src:url(ClassiqueScript.otf)
+        }
+        p {
+            font-family:carlo;
+        }
